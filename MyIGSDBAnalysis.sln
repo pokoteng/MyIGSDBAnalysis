@@ -7,6 +7,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MyIGSDBAnalysis", "MyIGSDBA
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NoDeclareTing", "NoDeclareTing\NoDeclareTing.vcxproj", "{501ADC1F-303A-4A42-8029-08B8E88F470A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "統計已經聽牌後隨者手數的增加，河底中沒出現(或少出現)的牌是否越有機會是別人所聽的牌", "統計已經聽牌後隨者手數的增加，河底中沒出現(或少出現)的牌是否越有機會是別人所聽的牌\統計已經聽牌後隨者手數的增加，河底中沒出現(或少出現)的牌是否越有機會是別人所聽的牌.vcxproj", "{6D589D8D-0EB5-4B22-859E-AD524D76894A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,6 +33,14 @@ Global
 		{501ADC1F-303A-4A42-8029-08B8E88F470A}.Release|x64.Build.0 = Release|x64
 		{501ADC1F-303A-4A42-8029-08B8E88F470A}.Release|x86.ActiveCfg = Release|Win32
 		{501ADC1F-303A-4A42-8029-08B8E88F470A}.Release|x86.Build.0 = Release|Win32
+		{6D589D8D-0EB5-4B22-859E-AD524D76894A}.Debug|x64.ActiveCfg = Debug|x64
+		{6D589D8D-0EB5-4B22-859E-AD524D76894A}.Debug|x64.Build.0 = Debug|x64
+		{6D589D8D-0EB5-4B22-859E-AD524D76894A}.Debug|x86.ActiveCfg = Debug|Win32
+		{6D589D8D-0EB5-4B22-859E-AD524D76894A}.Debug|x86.Build.0 = Debug|Win32
+		{6D589D8D-0EB5-4B22-859E-AD524D76894A}.Release|x64.ActiveCfg = Release|x64
+		{6D589D8D-0EB5-4B22-859E-AD524D76894A}.Release|x64.Build.0 = Release|x64
+		{6D589D8D-0EB5-4B22-859E-AD524D76894A}.Release|x86.ActiveCfg = Release|Win32
+		{6D589D8D-0EB5-4B22-859E-AD524D76894A}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
