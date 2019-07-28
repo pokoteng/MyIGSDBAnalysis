@@ -203,19 +203,20 @@ void HuCards(Tiles_ * Tiles, Tiles_ deads, int turn)
 				hu = true;
 			}
 			Tiles[i].tiles[t / 9] -= 1 << ((t % 9) * 3);
-
-			int deadcount = (deads.tiles[t / 9] >> ((t % 9) * 3)) & 7; //有幾張死牌已經出現了 ex有人碰過，此時deadcount為3
-			if (deadcount < 0 || deadcount > 4) {
-				cout << "deadcount error " << deadcount << endl;
-			}
-			cards[deadcount]++;
-			if (hu) {
-				hucards[deadcount]++;
-			}
 		}
+			
+		int deadcount = (deads.tiles[t / 9] >> ((t % 9) * 3)) & 7; //有幾張死牌已經出現了 ex有人碰過，此時deadcount為3
+		if (deadcount < 0 || deadcount > 4) {
+			cout << "deadcount error " << deadcount << endl;
+		}
+		cards[deadcount]++;
+		if (hu) {
+			hucards[deadcount]++;
+		}
+		
 	}
 
-	if (cards[0] + cards[1] + cards[2] + cards[3] + cards[4] != 136) {
+	if (cards[0] + cards[1] + cards[2] + cards[3] + cards[4] != 34) {
 		cout << "cards count error " << cards[0] + cards[1] + cards[2] + cards[3] << endl;
 	}
 
